@@ -8,4 +8,4 @@ addons:
     - ubuntu-toolchain-r-test
     packages:
     - g++-4.8
-    
+script: npm test && npm run lint
