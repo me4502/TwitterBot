@@ -1,6 +1,6 @@
 {
   "name": "codenetwork-seed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Seed project for Code Network",
   "main": "index.js",
   "scripts": {
