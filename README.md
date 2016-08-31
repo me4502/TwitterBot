@@ -1,7 +1,8 @@
 # Code Network Seed
 
 [![Build Status](https://travis-ci.org/codenetwork/CodeNetwork-Seed.svg?branch=develop)](https://travis-ci.org/codenetwork/CodeNetwork-Seed)
-[![Beast Status](https://img.shields.io/badge/Beast%20Mode-On-brightgreen.svg)
+
+![Beast Status](https://img.shields.io/badge/Beast%20Mode-On-brightgreen.svg)
 
 TODO: Write a project description
 
