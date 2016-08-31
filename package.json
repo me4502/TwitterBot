@@ -1,0 +1,22 @@
+{
+  "name": "codenetwork-seed",
+  "version": "0.1.0",
+  "description": "Seed project for Code Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenetwork/CodeNetwork-Seed.git"
+  },
+  "keywords": [
+    "seed"
+  ],
+  "author": "Code Network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenetwork/CodeNetwork-Seed/issues"
+  },
+  "homepage": "https://github.com/codenetwork/CodeNetwork-Seed#readme"
+}
