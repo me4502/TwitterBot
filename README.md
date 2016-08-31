@@ -1,5 +1,7 @@
 # Project Name
 
+[![Build Status](https://travis-ci.org/codenetwork/CodeNetwork-Seed.svg?branch=develop)](https://travis-ci.org/codenetwork/CodeNetwork-Seed)
+
 TODO: Write a project description
 
 ## Installation
