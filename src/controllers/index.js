@@ -1,8 +1,8 @@
-import { router } from 'express';
+import { Router } from 'express';
 import { version } from '../../package.json';
 
 export default () => {
-  const controller = router();
+  const controller = new Router();
 
   controller.get('/', (req, res) => {
     res.json({ version });

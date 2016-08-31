@@ -1,19 +1,25 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import logger from 'morgan';
 import controller from './controllers';
-import config from './config.json';
+
+const config = require('./config.json');
 
 const app = express();
 
-
+app.use(logger('dev'));
 app.use(bodyParser.json({
   limit: config.bodyLimit,
 }));
 
-app.use('/', controller());
+app.use(controller());
+
+// If none of the above routes hit
+// Send 404
+app.use((req, res) => {
+  res.json({ oh: 'no' });
+});
 
 app.listen(config.port);
-
-console.log(`Started on port ${config.port}`);
 
 export default app;
