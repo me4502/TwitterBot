@@ -29,5 +29,8 @@
     "eslint-plugin-react": "^6.2.0",
     "mocha": "^3.0.2",
     "mocha-eslint": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }
