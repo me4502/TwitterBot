@@ -4,7 +4,7 @@
   "description": "Seed project for Code Network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/mocha --reporter nyan",
     "lint": "eslint ."
   },
   "repository": {
@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/codenetwork/CodeNetwork-Seed#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^3.4.0",
-    "eslint-config-google": "^0.6.0"
-  },
-  "eslintConfig": {
-    "extends": "google"
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.2.0",
+    "mocha": "^3.0.2",
+    "mocha-eslint": "^3.0.1"
   }
 }
