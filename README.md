@@ -1,4 +1,4 @@
-# Project Name
+# Code Network Seed
 
 [![Build Status](https://travis-ci.org/codenetwork/CodeNetwork-Seed.svg?branch=develop)](https://travis-ci.org/codenetwork/CodeNetwork-Seed)
 
