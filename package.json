@@ -33,7 +33,10 @@
     "eslint-plugin-react": "^6.2.0"
   },
   "dependencies": {
+    "body-parser": "^1.13.3",
     "chai": "^3.5.0",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
     "express": "^4.14.0",
     "mocha": "^3.0.2",
     "mocha-eslint": "^3.0.1"
