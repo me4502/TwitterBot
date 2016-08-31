@@ -1,0 +1,17 @@
+{
+  "name":"CodeNetwork-Seed",
+  "keywords": [
+    "seed"
+  ],
+  "repository":"https://github.com/codenetwork/CodeNetwork-Seed",
+  "scripts": {
+    "postdeploy":""
+  },
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed anythings.",
+      "generator": "secret"
+    }
+  },
+  "image": "heroku/node"
+}

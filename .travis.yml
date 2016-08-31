@@ -1,7 +1,7 @@
 language: node_js
 sudo: false
 env:
-  - CXX=g++-4.8
+- CXX=g++-4.8
 addons:
   apt:
     sources:
@@ -9,3 +9,11 @@ addons:
     packages:
     - g++-4.8
 script: npm test
+deploy:
+  app:
+    master: codenetwork-seed
+  provider: heroku
+  api_key:
+    secure: WUIIkEHbO9toHyAYB9xrXkPuNwTcaqT+dOWzTrxL1lE6CIl3SSr0jj2in361LKiCw18cCkW9TvAe1jo2ti6gl0wVAjC91SjEMz2WqGQg9blOOd/KBMlTPAQ+ZqjuVU9S5pC2I7vKROqEo0IsNoVO7UVpriAiGcMTXuT0fqV3t+JlhOn3Fpl/xvy/9P2LvkJjAKJFVA2sNYfPCJSb0MauUwKno7r1Pmg6hPyypm7xnGgbO/EgnLFrcC+jVoShwLFQlkoZErXbU6e9jymp4YN13CHcaB9gOeRslDruf8FpEBAyMIHfGer1Qj+8WrtIFW8hVBqJgV8jAl18ynesS6kvoxh96QTumUFTifClZeQcaQAR1WizU3qdDhcQlJKwCf63wvtLSOnYZHqFujuWKGM6PenLcEOkOWNy8q6A7iKN1YSA7vWALnG+pmNtg1L97z0hYapg2ytQwEiTuL6TVt8oUXEHg3OYlVMuFuOt4SfzhhW6hFZeNLCXc/LIPlYWTXNaHXHzvNOcBrmkbxTfVV9zMD4cfZ7HJd3iZt083vVeaQpD3STJTqgr2qXNiZqSjovbSIBUxvQlQaz4mARlpphwVtOgM0AygXGSEu8q3CqwX8c5C37fcYqH1zRczo+KkKQSASg29PcoUZKABQ0Tw21Y4umHWpA91EuGRmYmEhH1PxA=
+  run:
+  - ""
