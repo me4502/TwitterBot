@@ -13,7 +13,7 @@ deploy:
   provider: heroku
   api_key:
     secure: UjOXNxSe4xFHFzIB+r84rFcXE+Ti2EG5IpPm4AvfTQW096nuLIEj8LPBCPM2ZkWKm4nioVArZyONxSY9T18bRY3axhJ5L2Hnt30HbdNX6HeqI7EINlDFDI09LTMuUEI+yktHXfLPbyekP9ot0RnNtBcEYJIg/DaybPY2p0mXcrbAnpjSWdT11KhedO8kaLMWcq5Xi8OBmdhqkbYT8f05D7kGMQD3T1pXDL4XEa1wtQXuk5XpFSCgFID3Hcv4BDa69a0KmXu1voJ9LJHdRV8/rnw7dv9F99TeaUaC4p5nwMEm+7nJuMQST/8y3RIL+x81WWpt4DnTnbALvSpZl09HK04xfI+jkpqC8wbgXkNmR4fVMgbI48Tda8W3tOBkSEpc3wSPskjHxVOFBcoCIFUIG0xGfGP2YN5ADQXPgks1YCRPsW2yDy9lGw+9hcsDmv8/PHNxCMKYxEs/BuqbZ79xyroyQG2LQWPQEbmF0xKM3AD0y+B+kowujtTII9kF42rc9EHMbzqnYcoU4PsWBKpBBXq7tJmCHGwERsOL+cCbMQPXNrzHX/p9ATvwIC7BtHgqw7selo4PpqF3ewblvSNWXlovgQt6UiwwzhrMGwvgjpEeYMTKZZJBMefEmoLb3oo15MmMaoxRjOU2VDvP6rQeZlznDxCLE1wh8+lcjESqxF4=
-  app: CodeNetwork-Seed
+  app: codenetwork-seed-develop
   on:
     repo: codenetwork/CodeNetwork-Seed
     branch: develop
