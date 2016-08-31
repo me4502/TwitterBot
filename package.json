@@ -4,7 +4,7 @@
   "description": "Seed project for Code Network",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter nyan",
+    "test": "./node_modules/.bin/mocha \"src/tests/**/*.js\" --reporter nyan",
     "lint": "eslint ."
   },
   "repository": {
