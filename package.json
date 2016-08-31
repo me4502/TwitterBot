@@ -4,7 +4,8 @@
   "description": "Seed project for Code Network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/codenetwork/CodeNetwork-Seed/issues"
   },
-  "homepage": "https://github.com/codenetwork/CodeNetwork-Seed#readme"
+  "homepage": "https://github.com/codenetwork/CodeNetwork-Seed#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-google": "^0.6.0"
+  },
+  "eslintConfig": {
+    "extends": "google"
+  }
 }
