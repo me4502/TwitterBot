@@ -20,7 +20,7 @@ app.use((req, res) => {
   res.json({ oh: 'no' });
 });
 
-app.set('port', process.env.PORT || 8080);
-app.listen(config.port);
+app.set('port', process.env.PORT || config.port);
+app.listen(app.get('port'));
 
 export default app;
