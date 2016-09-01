@@ -5,7 +5,8 @@
   ],
   "repository":"https://github.com/codenetwork/CodeNetwork-Seed",
   "scripts": {
-    "postdeploy":""
+    "postinstall": "npm run compile",
+    "start": "npm run server"
   },
   "env": {
     "SECRET_TOKEN": {

@@ -17,7 +17,5 @@ deploy:
   on:
     repo: codenetwork/CodeNetwork-Seed
     branch: develop
-  run:
-  - "npm run compile"
   strategy: api
   skip_cleanup: true
