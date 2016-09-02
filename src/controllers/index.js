@@ -10,7 +10,7 @@ export default (io) => {
   const controller = new Router();
 
   controller.get('/', (req, res) => {
-    res.json({ version });
+    res.json({ "Woof" });
   });
 
   controller.get('/hello', (req, res) => {
