@@ -1,0 +1,19 @@
+{
+  "name": "codenetwork-seed",
+  "description": "Seed project for Code Network",
+  "main": "index.js",
+  "authors": [
+    "Code Network"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "seed"
+  ],
+  "homepage": "https://github.com/codenetwork/CodeNetwork-Seed",
+  "private": true,
+  "dependencies": {
+    "umbrella": "^2.6.6",
+    "picnic": "^6.1.4",
+    "vue": "^1.0.26"
+  }
+}
