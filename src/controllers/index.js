@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { version } from '../../package.json';
+// import { version } from '../../package.json';
 
 function socketConnect(socket) {
   socket.emit('news', { hello: 'world' });
@@ -10,7 +10,7 @@ export default (io) => {
   const controller = new Router();
 
   controller.get('/', (req, res) => {
-    res.json({ "Woof" });
+    res.json({ cat: 'dog' }); // eslint-disable-line
   });
 
   controller.get('/hello', (req, res) => {
