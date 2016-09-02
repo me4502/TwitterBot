@@ -3,3 +3,6 @@
 /bower_components/
 npm-debug.log
 /target/
+
+/public/
+/src/public
