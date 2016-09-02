@@ -27,11 +27,11 @@ app.use(sassMiddleware({
   outputStyle: 'compressed',
   prefix: '/css',
   options: {
-    compress: false,
     include: [
       './bower_components/../',
     ],
   },
+  force: true,
 }));
 
 // If none of the above routes hit

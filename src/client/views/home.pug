@@ -6,5 +6,8 @@ html
         title Homepage
         link(rel="stylesheet" type="text/css" href="/css/style.css")
     body
-        script(src='/js/home/index.js')
         h1 We should put fancy homepage here
+        div(id="app")
+            | {{ message }}
+
+        script(src='/js/home/index.js')
